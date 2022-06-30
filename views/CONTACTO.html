@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MotosF - Una buena elección</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="../img/favicon.png">
+    <!-- mi css -->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <nav class="bgDark">
+        <a href="../index.html">
+            <img src="../img/logomotosf.png" alt="logo de MotosF" class="logonav">
+        </a>
+        <ul>
+			<li class="navButton">
+				<a href="../views/CONTACTO.html">CONTACTO</a>
+			</li>
+			<li class="navButton">
+				<a href="../views/SUCURSALES.html">SUCURSALES</a>
+			</li>
+			<li class="navButton">
+				<a href="../views/DESTACADOS.html">DESTACADOS</a>
+			</li>
+			<li class="navButton">
+				<a href="../views/ACCESORIOS.html">ACCESORIOS</a>
+			</li>
+		</ul>
+    </nav>
+<body>
+<main>
+    <section id="contactoCue">
+        <div class="contactDiv">
+        <form action="envio.php">
+            <fieldset>
+                <h6>Tu nombre</h6>
+            <div class="contactDiv2">
+                <label for="nombre-cont" class="textContac">Nombre:</label>
+                <input type="tex" id="nombre-cont">
+            </div>
+            <div class="contactDiv2">
+                <label for="apellido-cont" textContac>Apellido:</label>
+                <input type="text" id="apellido-cont">
+            </div>
+            </fieldset>
+        </div>
+        <div class="contactDiv">
+            <fieldset>
+            <div class="contactDiv2">
+                <h6>Sexo</h6>
+                <div class="contactDiv2">
+                <label for="masculino-cont" class="textContac">Masculino</label>
+                <input type="radio" id="masculino-cont" value="masculino-cont" name="sexo">
+            </div>
+            <div class="contactDiv2">
+                <label for="femenino-cont" class="textContac">Femenino</label>
+                <input type="radio" id="femenino-cont" value="femenino-cont" name="sexo">
+            </div>
+            </fieldset>
+        </div>
+        <div class="contactDiv">
+            <fieldset>
+            <div class="contactDiv2">
+                <h6>Completa tus datos</h6>
+                <label for="tdocum-cont" class="textContac">Tipo de documento</label>
+                <select name="select" id="tdocum-cont">
+                    <option value="N/A-cont.1">N/A</option>
+                    <option value="DNI">DNI</option>
+                    <option value="CUIT">CUIT</option>
+                    <option value="CUIL">CUIL</option>
+                </select>
+            </div>
+            <div class="contactDiv2">
+                <label for="nro.docum-cont" class="textContac">Nº de documento:</label>
+                <input type="number" id="nro.docum-cont">
+            </div>
+            <div class="contactDiv2">
+                <label for="tel.cel-cont" class="textContac">Teléfono / Celular:</label>
+                <input type="number" id="tel.cel-cont">
+            </div>
+            </fieldset>
+        </div>
+        <div class="contactDiv">
+            <fieldset>
+            <div class="contactDiv2">
+                <h6>Día y horario</h6>
+                <h7>Día:</h7>
+                <label for="lunes-cont" class="textContac">Lunes</label>
+                <input type="checkbox" id="lunes-cont" value="lunes-cont">
+            </div>
+            <div class="contactDiv2">
+                <label for="martes-cont" class="textContac">Martes</label>
+                <input type="checkbox" id="martes-cont" value="martes-cont">
+            </div>
+            <div class="contactDiv2">
+                <label for="miercoles-cont" class="textContac">Miércoles</label>
+                <input type="checkbox" id="miercoles-cont" value="miercoles-cont">
+            </div>
+            <div class="contactDiv2">
+                <label for="jueves-cont" class="textContac">Jueves</label>
+                <input type="checkbox" id="jueves-cont" value="jueves-cont">
+            </div>
+            <div class="contactDiv2">
+                <label for="viernes-cont" class="textContac">Viernes</label>
+                <input type="checkbox" id="viernes-cont" value="viernes-cont">
+            </div>
+            <div class="contactDiv2">
+                <label for="sabado-cont" class="textContac">Sábado</label>
+                <input type="checkbox" id="sabado-cont" value="sabado-cont">
+            </div>
+            <div class="contactDiv2">
+                <label for="horario-cont" class="textContac">Horario:</label>
+                <select name="select" id="horario-cont">
+                    <option value="N/A-cont.2">N/A</option>
+                    <option value="08.10">08:00 a 10:00</option>
+                    <option value="10.12">10:00 a 12:00</option>
+                    <option value="12.14">12:00 a 14:00</option>
+                    <option value="14.16">14:00 a 16:00</option>
+                    <option value="16.18">16:00 a 18:00</option>
+            </fieldset>
+        </div>
+            <input type="submit" value="Enviar" class="botones">
+            <input type="reset" value="Cancelar" class="botones">
+
+        </form>
+    </section>
+</main>
+<footer id="footer">
+    <div class="pieCuerpo">
+        <div  class="pieTexto" id="pie1">
+            <ul>
+                <li>SUCURSALES</li>
+                <P>Lorem ipsum dolor sit amet consectetur adipisicing elit.</P>
+                <li>
+                    <a href="#">Lorem ipsum</a>
+                </li>
+                <li>
+                    <a href="#">Lorem ipsum</a>
+            </ul>
+        </div>
+        <div class="redes" id="pie">
+            <h5>SEGUINOS</h5>
+    <a href="https://www.instagram.com" target="_blank">
+        <img src="../img/logoinstagram.png" alt="Instagram" class="pieIconSm" clas="imgPie">
+    </a>
+    <a href="https://www.facebook.com" target="_blank" >  
+        <img src="../img/logofacebook.png" alt="Facebook" class="pieIconSm" clas="imgPie">
+    </a>
+    <a href="https://twitter.com/" target="_blank" class="pieIconSm" clas="imgPie">  
+        <img src="../img/logotwitter.png" alt="Twiter" class="pieIconSm" clas="imgPie">
+    </a>
+        </div>
+        <div  class="pieTexto" id="pie3">
+            <ul>
+                <li>CONTACTANOS</li>
+                <li>
+                    <a href="#">Lorem ipsum</a>
+                </li>
+                <li>
+                    <a href="#">Lorem ipsum</a>
+                </li>
+                <li>
+                    <a href="#">Lorem ipsum</a>
+                </li>
+                <a href="https://www.gmail.com" target="_blank">
+                    <img src="../img/logogmail.png" alt="Correo electronico">
+                </a>
+            </ul>
+        </div>
+    </div> 
+    </footer>
+</body>
+</html>
