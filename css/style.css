@@ -94,7 +94,7 @@ h5{
     padding: 10px;
     margin: 1rem;
     overflow-x: none;
-}
+} 
 .cajaMarcas{
     display:flex;
     justify-content: center;
@@ -102,6 +102,14 @@ h5{
     margin: 2px;
     left: 46rem;
     bottom: 5rem;
+    animation-name: animateMarcas;
+    animation-delay: 1s;
+    animation-duration: 5s;
+}
+@keyframes animateMarcas {
+    0%{width: 100%} 
+    50%{width: 150%}
+    100%{width: 100%}
 }
 .imgMarcas{
     margin: 15px;
@@ -124,6 +132,11 @@ section p{
     line-height: 2.4rem;
     font-style: inherit;
     font-weight: 500;
+}
+.textQ:hover{
+    transform: translateX(50px);
+    cursor: pointer;
+    transition: 3s;
 }
 .div1{
     display:flex;
