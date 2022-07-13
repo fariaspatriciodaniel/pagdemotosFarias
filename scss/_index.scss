@@ -1,0 +1,36 @@
+h1,h2{
+    font-family: $secondaryFont;
+    font-weight: $bold;
+}
+h3{
+    color: $black;
+    font-size: $textMd;
+}
+.imgMarcas{
+    margin: 15px;
+    border-radius: 9px;
+}
+.imgModelos{
+    border-radius: 26px;
+}
+.articulo1 {
+    width: 60%;
+    height: auto;
+    margin: 50px auto;
+    background-color: $bgColor3;
+    padding: 10px 5px;
+    border: double 4px $secondaryColor;
+    h4{
+        color:$secondaryColor;
+        font-weight: $bold;
+        text-align: center;
+        font-size: $textLg;
+        p{
+            font-family: $secondaryFont;
+            font-size: $textMd;
+            font-weight: $bold;
+            color: $black;
+            }
+    }
+
+}

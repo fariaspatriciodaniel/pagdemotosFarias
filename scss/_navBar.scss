@@ -1,0 +1,11 @@
+.navbar{
+    background-color: $bgColor2;
+    font-weight: $bold;
+    font-size: $textLg;
+    ul{
+        display: flex;
+        li{
+            list-style: none;
+        }
+    }
+}

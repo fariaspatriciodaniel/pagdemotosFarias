@@ -1,0 +1,69 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500&family=Roboto:wght@300;400;500&display=swap");
+.navbar {
+  background-color: #09806c;
+  font-weight: 500;
+  font-size: 2.8rem;
+}
+.navbar ul {
+  display: flex;
+}
+.navbar ul li {
+  list-style: none;
+}
+
+* {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(252, 59, 0, 0.623);
+}
+
+h1, h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+h3 {
+  color: #141414;
+  font-size: 2.5rem;
+}
+
+.imgMarcas {
+  margin: 15px;
+  border-radius: 9px;
+}
+
+.imgModelos {
+  border-radius: 26px;
+}
+
+.articulo1 {
+  width: 60%;
+  height: auto;
+  margin: 50px auto;
+  background-color: #24ddbe;
+  padding: 10px 5px;
+  border: double 4px rgb(255, 102, 0);
+}
+.articulo1 h4 {
+  color: rgb(255, 102, 0);
+  font-weight: 500;
+  text-align: center;
+  font-size: 2.8rem;
+}
+.articulo1 h4 p {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 500;
+  color: #141414;
+}
+
+.container {
+  background-color: #045245;
+  font-weight: 500;
+  font-size: 3rem;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}/*# sourceMappingURL=styles.css.map */

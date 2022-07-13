@@ -61,12 +61,7 @@ nav{
     padding: 10px 5px;
     border: double 4px #085e4f
 }
-body{
-    background-image: url(../img/fondo.png);
-    background-repeat: repeat;
-    background-attachment: fixed;
-    background-size: cover;
-}
+
 h1,h2{
     color: #4cbba8;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
