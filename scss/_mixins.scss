@@ -1,0 +1,24 @@
+@mixin bordesImg($bordes) {
+    border-radius: $bordes;
+}
+.bordeLg{
+    @include bordesImg(1.5rem);
+}
+.bordeSm{
+    @include bordesImg(1rem);
+}
+.bordeLogo{
+    @extend .bordeSm;
+    border: inset;
+    width: 30px;
+    height: 30px;
+}
+$paleta:(
+    "uno": #09927b,
+    "dos": #26E1B3,
+    "tres": #247a65,
+    "cuatro": #ff9100,
+    "cinco": #b41212,
+    "seis": #ff4800
+    "siete" #0d0085
+);

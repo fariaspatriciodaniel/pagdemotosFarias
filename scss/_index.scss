@@ -1,4 +1,8 @@
-h1,h2{
+h1{
+    color: $alertColor;
+    text-align: center;
+}
+h2{
     font-family: $secondaryFont;
     font-weight: $bold;
 }
@@ -21,7 +25,7 @@ h3{
     padding: 10px 5px;
     border: double 4px $secondaryColor;
     h4{
-        color:$secondaryColor;
+        color: map-get($map: $paleta, $key: "siete");
         font-weight: $bold;
         text-align: center;
         font-size: $textLg;
@@ -32,5 +36,4 @@ h3{
             color: $black;
             }
     }
-
 }
