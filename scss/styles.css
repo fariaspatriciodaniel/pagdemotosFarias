@@ -41,13 +41,19 @@ h1 {
 }
 
 h2 {
-  font-family: "Open Sans", sans-serif;
+  color: #247a65;
   font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
 }
 
 h3 {
   color: #141414;
   font-size: 2.5rem;
+}
+
+.main {
+  overflow: none;
 }
 
 .imgMarcas {
@@ -59,6 +65,22 @@ h3 {
   border-radius: 26px;
 }
 
+.carousel1 {
+  display: flex;
+  align-items: center;
+}
+
+.modelos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letrasMod {
+  font-size: 2.8rem;
+  text-align: center;
+}
+
 .articulo1 {
   width: 60%;
   height: auto;
@@ -68,6 +90,7 @@ h3 {
   border: double 4px rgb(255, 102, 0);
 }
 .articulo1 h4 {
+  color: #0d0085;
   font-weight: 500;
   text-align: center;
   font-size: 2.8rem;
@@ -77,6 +100,28 @@ h3 {
   font-size: 2.5rem;
   font-weight: 500;
   color: #141414;
+}
+
+.textQ:hover {
+  transform: translateX(50px);
+  cursor: pointer;
+  transition: 3s;
+}
+
+h5 {
+  color: #e5eeec;
+  font-weight: 500;
+}
+
+.imagenCarrusel {
+  width: 20rem;
+  height: 25rem;
+  image-rendering: crisp-edges;
+}
+
+.imagenMod {
+  width: 20rem;
+  height: 25rem;
 }
 
 .container {

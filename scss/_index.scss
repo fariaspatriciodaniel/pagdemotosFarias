@@ -3,12 +3,17 @@ h1{
     text-align: center;
 }
 h2{
-    font-family: $secondaryFont;
+    color: map-get($map: $paleta, $key: "tres");
     font-weight: $bold;
+    font-family: $secondaryFont;
+    text-align: center;
 }
 h3{
     color: $black;
     font-size: $textMd;
+}
+.main{
+    overflow: none;
 }
 .imgMarcas{
     margin: 15px;
@@ -16,6 +21,20 @@ h3{
 }
 .imgModelos{
     border-radius: 26px;
+}
+.carousel1{
+    display: flex;
+    align-items: center;
+}
+.modelos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.letrasMod{
+    font-size: $textLg;
+    text-align: center;
 }
 .articulo1 {
     width: 60%;
@@ -36,4 +55,31 @@ h3{
             color: $black;
             }
     }
+}
+.textQ:hover{
+    transform: translateX(50px);
+    cursor: pointer;
+    transition: 3s;
+}
+h5{
+    color: $whte;
+    font-weight: $bold;
+}
+@import "_maps";
+
+$ancho: 10rem;
+$alto: 10rem;
+
+.imagenCarrusel{ 
+	width: map-get($map: $imagen, $key:width);
+    height: map-get($map: $imagen, $key:height );
+
+
+    image-rendering:crisp-edges
+}
+
+.imagenMod{ 
+	width: map-get($map: $imagen, $key:width);
+    height: map-get($map: $imagen, $key:height );
+
 }
