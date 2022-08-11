@@ -17,6 +17,7 @@
   background-color: #09806c;
   font-weight: 500;
   font-size: 2.8rem;
+  width: 100%;
 }
 .navbar ul {
   display: flex;
@@ -111,14 +112,14 @@ h5 {
 }
 
 .imagenCarrusel {
-  width: 20rem;
-  height: 25rem;
+  width: 100%;
+  height: auto;
   image-rendering: crisp-edges;
 }
 
 .imagenMod {
-  width: 20rem;
-  height: 25rem;
+  width: 100%;
+  height: auto;
 }
 
 .formulario {
@@ -152,6 +153,11 @@ h5 {
 .descripText {
   font-size: 1.8rem;
   color: #141414;
+}
+
+.error {
+  width: 80%;
+  height: 80%;
 }
 
 .container {
