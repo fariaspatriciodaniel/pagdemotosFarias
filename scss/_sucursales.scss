@@ -1,0 +1,6 @@
+.h2Suc{
+    color: map-get($map: $paleta, $key: "siete");
+    font-weight: $bold;
+    font-family: $secondaryFont;
+    text-align: center;
+}

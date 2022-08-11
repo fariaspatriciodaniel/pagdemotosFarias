@@ -12,12 +12,10 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <!-- mi css -->
     <link rel="stylesheet" href="../scss/styles.css">
-    <link rel="stylesheet" href="../css/style.css">
 </head>
 <body>
     <div class="contenedor">
-        <nav class="navbar navbar-expand-lg bgDark2{
-            ">
+        <nav class="navbar navbar-expand-lg bgDark2">
             <div class="container-fluid">
                 <a href="../index.html">
                     <img src="../img/logomotosf.png" alt="logo de MotosF" class="logonav">
@@ -45,101 +43,103 @@
     </div>
 <main>
     <h1>CONTACATANOS!</h1>
-    <section id="contactoCue">
-        <div class="contactDiv">
-        <form action="envio.php">
-            <fieldset>
-                <h6>Tu nombre</h6>
-            <div class="contactDiv2">
-                <label for="nombre-cont" class="textContac">Nombre:</label>
-                <input type="tex" id="nombre-cont">
+    <div class="d-flex justify-content-center">
+        <div class="formulario">
+                <section>
+            <div>
+            <form action="../index.html">
+                <fieldset>
+                    <h6>Tu nombre</h6>
+                <div>
+                    <label for="nombre-cont" class="textContac">Nombre:</label>
+                    <input type="tex" id="nombre-cont">
+                </div>
+                <div>
+                    <label for="apellido-cont" textContac>Apellido:</label>
+                    <input type="text" id="apellido-cont">
+                </div>
+                </fieldset>
             </div>
-            <div class="contactDiv2">
-                <label for="apellido-cont" textContac>Apellido:</label>
-                <input type="text" id="apellido-cont">
+            <div>
+                <fieldset>
+                <div>
+                    <h6>Sexo:</h6>
+                    <div>
+                    <label for="masculino-cont" class="textContac">Masculino</label>
+                    <input type="radio" id="masculino-cont" value="masculino-cont" name="sexo">
+                </div>
+                <div>
+                    <label for="femenino-cont" class="textContac">Femenino</label>
+                    <input type="radio" id="femenino-cont" value="femenino-cont" name="sexo">
+                </div>
+                </fieldset>
             </div>
-            </fieldset>
+            <div>
+                <fieldset>
+                <div>
+                    <h6>Completa tus datos</h6>
+                    <label for="tdocum-cont">Tipo de documento</label>
+                    <select name="select" id="tdocum-cont">
+                        <option value="N/A-cont.1">N/A</option>
+                        <option value="DNI">DNI</option>
+                        <option value="CUIT">CUIT</option>
+                        <option value="CUIL">CUIL</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="nro.docum-cont">Nº de documento:</label>
+                    <input type="number" id="nro.docum-cont">
+                </div>
+                <div >
+                    <label for="tel.cel-cont">Teléfono / Celular:</label>
+                    <input type="number" id="tel.cel-cont">
+                </div>
+                </fieldset>
+            </div>
+            <div>
+                <fieldset>
+                <div>
+                    <h6>Día y horario</h6>
+                    <label for="lunes-cont">Lunes</label>
+                    <input type="checkbox" id="lunes-cont" value="lunes-cont">
+                </div>
+                <div>
+                    <label for="martes-cont">Martes</label>
+                    <input type="checkbox" id="martes-cont" value="martes-cont">
+                </div>
+                <div>
+                    <label for="miercoles-cont">Miércoles</label>
+                    <input type="checkbox" id="miercoles-cont" value="miercoles-cont">
+                </div>
+                <div>
+                    <label for="jueves-cont">Jueves</label>
+                    <input type="checkbox" id="jueves-cont" value="jueves-cont">
+                </div>
+                <div>
+                    <label for="viernes-cont">Viernes</label>
+                    <input type="checkbox" id="viernes-cont" value="viernes-cont">
+                </div>
+                <div>
+                    <label for="sabado-cont">Sábado</label>
+                    <input type="checkbox" id="sabado-cont" value="sabado-cont">
+                </div>
+                <div>
+                    <label for="horario-cont">Horario:</label>
+                    <select name="select" id="horario-cont">
+                        <option value="N/A-cont.2">N/A</option>
+                        <option value="08.10">08:00 a 10:00</option>
+                        <option value="10.12">10:00 a 12:00</option>
+                        <option value="12.14">12:00 a 14:00</option>
+                        <option value="14.16">14:00 a 16:00</option>
+                        <option value="16.18">16:00 a 18:00</option>
+                </fieldset>
+            </div>
         </div>
-        <div class="contactDiv">
-            <fieldset>
-            <div class="contactDiv2">
-                <h6>Sexo</h6>
-                <div class="contactDiv2">
-                <label for="masculino-cont" class="textContac">Masculino</label>
-                <input type="radio" id="masculino-cont" value="masculino-cont" name="sexo">
-            </div>
-            <div class="contactDiv2">
-                <label for="femenino-cont" class="textContac">Femenino</label>
-                <input type="radio" id="femenino-cont" value="femenino-cont" name="sexo">
-            </div>
-            </fieldset>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Cancelar">
+            </form>
+        </section>
         </div>
-        <div class="contactDiv">
-            <fieldset>
-            <div class="contactDiv2">
-                <h6>Completa tus datos</h6>
-                <label for="tdocum-cont" class="textContac">Tipo de documento</label>
-                <select name="select" id="tdocum-cont">
-                    <option value="N/A-cont.1">N/A</option>
-                    <option value="DNI">DNI</option>
-                    <option value="CUIT">CUIT</option>
-                    <option value="CUIL">CUIL</option>
-                </select>
-            </div>
-            <div class="contactDiv2">
-                <label for="nro.docum-cont" class="textContac">Nº de documento:</label>
-                <input type="number" id="nro.docum-cont">
-            </div>
-            <div class="contactDiv2">
-                <label for="tel.cel-cont" class="textContac">Teléfono / Celular:</label>
-                <input type="number" id="tel.cel-cont">
-            </div>
-            </fieldset>
-        </div>
-        <div class="contactDiv">
-            <fieldset>
-            <div class="contactDiv2">
-                <h6>Día y horario</h6>
-                <h7>Día:</h7>
-                <label for="lunes-cont" class="textContac">Lunes</label>
-                <input type="checkbox" id="lunes-cont" value="lunes-cont">
-            </div>
-            <div class="contactDiv2">
-                <label for="martes-cont" class="textContac">Martes</label>
-                <input type="checkbox" id="martes-cont" value="martes-cont">
-            </div>
-            <div class="contactDiv2">
-                <label for="miercoles-cont" class="textContac">Miércoles</label>
-                <input type="checkbox" id="miercoles-cont" value="miercoles-cont">
-            </div>
-            <div class="contactDiv2">
-                <label for="jueves-cont" class="textContac">Jueves</label>
-                <input type="checkbox" id="jueves-cont" value="jueves-cont">
-            </div>
-            <div class="contactDiv2">
-                <label for="viernes-cont" class="textContac">Viernes</label>
-                <input type="checkbox" id="viernes-cont" value="viernes-cont">
-            </div>
-            <div class="contactDiv2">
-                <label for="sabado-cont" class="textContac">Sábado</label>
-                <input type="checkbox" id="sabado-cont" value="sabado-cont">
-            </div>
-            <div class="contactDiv2">
-                <label for="horario-cont" class="textContac">Horario:</label>
-                <select name="select" id="horario-cont">
-                    <option value="N/A-cont.2">N/A</option>
-                    <option value="08.10">08:00 a 10:00</option>
-                    <option value="10.12">10:00 a 12:00</option>
-                    <option value="12.14">12:00 a 14:00</option>
-                    <option value="14.16">14:00 a 16:00</option>
-                    <option value="16.18">16:00 a 18:00</option>
-            </fieldset>
-        </div>
-            <input type="submit" value="Enviar" class="botones">
-            <input type="reset" value="Cancelar" class="botones">
-
-        </form>
-    </section>
 </main>
 <div class="container">
     <footer class="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">

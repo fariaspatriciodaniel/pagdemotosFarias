@@ -1,0 +1,6 @@
+.h2Tit{
+    color: map-get($map: $paleta, $key: "cinco");
+    font-weight: $bold;
+    font-family: $secondaryFont;
+    text-align: center;
+}

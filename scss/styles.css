@@ -40,16 +40,11 @@ h1 {
   text-align: center;
 }
 
-h2 {
+.h2M {
   color: #247a65;
   font-weight: 500;
   font-family: "Open Sans", sans-serif;
   text-align: center;
-}
-
-h3 {
-  color: #141414;
-  font-size: 2.5rem;
 }
 
 .main {
@@ -79,6 +74,8 @@ h3 {
 .letrasMod {
   font-size: 2.8rem;
   text-align: center;
+  text-decoration: none;
+  color: #141414;
 }
 
 .articulo1 {
@@ -122,6 +119,39 @@ h5 {
 .imagenMod {
   width: 20rem;
   height: 25rem;
+}
+
+.formulario {
+  background-color: #26E1B3;
+}
+
+.h2Suc {
+  color: #0d0085;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.h2Tit {
+  color: #b41212;
+  font-weight: 500;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+}
+
+.nombreProd {
+  font-size: 2rem;
+  color: #ff4800;
+}
+
+.precio {
+  font-size: 2rem;
+  color: #b41212;
+}
+
+.descripText {
+  font-size: 1.8rem;
+  color: #141414;
 }
 
 .container {

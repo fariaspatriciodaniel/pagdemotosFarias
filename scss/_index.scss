@@ -2,15 +2,11 @@ h1{
     color: $alertColor;
     text-align: center;
 }
-h2{
+.h2M{
     color: map-get($map: $paleta, $key: "tres");
     font-weight: $bold;
     font-family: $secondaryFont;
     text-align: center;
-}
-h3{
-    color: $black;
-    font-size: $textMd;
 }
 .main{
     overflow: none;
@@ -35,6 +31,8 @@ h3{
 .letrasMod{
     font-size: $textLg;
     text-align: center;
+    text-decoration: none;
+    color: $black;
 }
 .articulo1 {
     width: 60%;

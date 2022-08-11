@@ -1,0 +1,12 @@
+.nombreProd{
+    font-size: $textSm;
+    color: map-get($map: $paleta, $key: "seis");
+}
+.precio{
+    font-size: $textSm;
+    color: map-get($map: $paleta, $key: "cinco");
+}
+.descripText{
+    font-size: $textXs;
+    color: $black; 
+}
